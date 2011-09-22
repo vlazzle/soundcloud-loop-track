@@ -51,7 +51,7 @@
 
     <h2>Install</h2>
 <p>drag this link into your bookmarks:
-<a href="javascript:(function($)%20{var%20$play%20=%20$(%27.controls%20a.play:first%27),poll%20=%20true;function%20startPolling()%20{setInterval(function()%20{if%20(poll)%20{if%20(!$play.hasClass(%27playing%27))%20{$play.trigger(%27click%27,%20true);}}},%20500);}$play.bind(%27click%27,%20function(e,%20loop)%20{if%20(typeof%20loop%20===%20%27undefined%27%20||%20!loop)%20{poll%20=%20!$play.hasClass(%27playing%27);}});startPolling();}(jQuery));">loop track</a></p>
+<a href="javascript:(function($)%20%7B%20%20var%20$play%20=%20$('.controls%20a.play:first'),%20%20%20%20%20%20poll%20=%20true;%20%20function%20startPolling()%20%7B%20%20%20%20setInterval(function()%20%7B%20%20%20%20%20%20if%20(poll)%20%7B%20%20%20%20%20%20%20%20if%20(!$play.hasClass('playing'))%20%7B%20%20%20%20%20%20%20%20%20%20$play.trigger('click',%20true);%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%7D%20%20%20%20%7D,%20500);%20%20%7D%20%20$play.bind('click',%20function(e,%20loop)%20%7B%20%20%20%20if%20(typeof%20loop%20===%20'undefined'%20%7C%7C%20!loop)%20%7B%20%20%20%20%20%20poll%20=%20!$play.hasClass('playing');%20%20%20%20%7D%20%20%7D);%20%20startPolling();%7D(jQuery));">loop track</a></p>
 <h2>Authors</h2>
 <p>Vladimir Chernis (iamvlad@gmail.com)
 <br/>      </p>

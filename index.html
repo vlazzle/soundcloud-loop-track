@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+
+  <title>vovik/soundcloud-loop-track @ GitHub</title>
+
+  <style type="text/css">
+    body {
+      margin-top: 1.0em;
+      background-color: #e1a9fa;
+      font-family: Helvetica, Arial, FreeSans, san-serif;
+      color: #000000;
+    }
+    #container {
+      margin: 0 auto;
+      width: 700px;
+    }
+    h1 { font-size: 3.8em; color: #1e5605; margin-bottom: 3px; }
+    h1 .small { font-size: 0.4em; }
+    h1 a { text-decoration: none }
+    h2 { font-size: 1.5em; color: #1e5605; }
+    h3 { text-align: center; color: #1e5605; }
+    a { color: #1e5605; }
+    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
+    .download { float: right; }
+    pre { background: #000; color: #fff; padding: 15px;}
+    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+    .footer { text-align:center; padding-top:30px; font-style: italic; }
+  </style>
+</head>
+
+<body>
+  <a href="http://github.com/vovik/soundcloud-loop-track"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+
+  <div id="container">
+
+    <div class="download">
+      <a href="http://github.com/vovik/soundcloud-loop-track/zipball/master">
+        <img border="0" width="90" src="http://github.com/images/modules/download/zip.png"></a>
+      <a href="http://github.com/vovik/soundcloud-loop-track/tarball/master">
+        <img border="0" width="90" src="http://github.com/images/modules/download/tar.png"></a>
+    </div>
+
+    <h1><a href="http://github.com/vovik/soundcloud-loop-track">soundcloud-loop-track</a>
+      <span class="small">by <a href="http://github.com/vovik">vovik</a></span></h1>
+
+    <div class="description">
+      bookmarklet to play a SoundCloud track in a loop
+    </div>
+
+    <h2>Install</h2>
+<p>drag this link into your bookmarks:
+<a href="(function($)%20{var%20$play%20=%20$(%27.controls%20a.play:first%27),poll%20=%20true;function%20startPolling()%20{setInterval(function()%20{if%20(poll)%20{if%20(!$play.hasClass(%27playing%27))%20{$play.trigger(%27click%27,%20true);}}},%20500);}$play.bind(%27click%27,%20function(e,%20loop)%20{if%20(typeof%20loop%20===%20%27undefined%27%20||%20!loop)%20{poll%20=%20!$play.hasClass(%27playing%27);}});startPolling();}(jQuery));">loop track</a></p>
+<h2>Authors</h2>
+<p>Vladimir Chernis (iamvlad@gmail.com)<br/>      </p>
+<h2>Contact</h2>
+<p>Vladimir Chernis (iamvlad@gmail.com)<br/>      </p>
+
+
+    <h2>Download</h2>
+    <p>
+      You can download this project in either
+      <a href="http://github.com/vovik/soundcloud-loop-track/zipball/master">zip</a> or
+      <a href="http://github.com/vovik/soundcloud-loop-track/tarball/master">tar</a> formats.
+    </p>
+    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
+      by running:
+      <pre>$ git clone git://github.com/vovik/soundcloud-loop-track</pre>
+    </p>
+
+    <div class="footer">
+      get the source code on GitHub : <a href="http://github.com/vovik/soundcloud-loop-track">vovik/soundcloud-loop-track</a>
+    </div>
+
+  </div>
+
+  
+</body>
+</html>
